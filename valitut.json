@@ -1,0 +1,65 @@
+[
+ {
+   "age": "18 - 27",
+   "womenElected": 161,
+   "womenElectedToPeople": 10,
+   "menElected": 214,
+   "menElectedToPeople": 8,
+   "allElected": 375,
+   "allElectedToPeople": 19
+ },
+ {
+   "age": "28 - 37",
+   "womenElected": 643,
+   "womenElectedToPeople": 41,
+   "menElected": 682,
+   "menElectedToPeople": 27,
+   "allElected": 1325,
+   "allElectedToPeople": 65
+ },
+ {
+   "age": "38 - 47",
+   "womenElected": 957,
+   "womenElectedToPeople": 61,
+   "menElected": 1097,
+   "menElectedToPeople": 43,
+   "allElected": 2054,
+   "allElectedToPeople": 101
+ },
+ {
+   "age": "48 - 57",
+   "womenElected": 902,
+   "womenElectedToPeople": 58,
+   "menElected": 1372,
+   "menElectedToPeople": 54,
+   "allElected": 2274,
+   "allElectedToPeople": 112
+ },
+ {
+   "age": "58 - 67",
+   "womenElected": 716,
+   "womenElectedToPeople": 46,
+   "menElected": 1630,
+   "menElectedToPeople": 64,
+   "allElected": 2346,
+   "allElectedToPeople": 115
+ },
+ {
+   "age": "68 <",
+   "womenElected": 150,
+   "womenElectedToPeople": 10,
+   "menElected": 474,
+   "menElectedToPeople": 19,
+   "allElected": 624,
+   "allElectedToPeople": 31
+ },
+ {
+   "age": "Count",
+   "womenElected": 3530,
+   "womenElectedToPeople": 227,
+   "menElected": 5469,
+   "menElectedToPeople": 216,
+   "allElected": 8999,
+   "allElectedToPeople": 443
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+   "age": "18 - 27",
+   "womenInPop": "325 084",
+   "womenInPopTo10000": 33,
+   "menInPop": "341 703",
+   "menInPopTo10000": 34,
+   "allPeopleinPop": "666 787",
+   "allPeopleTo10000": 67
+ },
+ {
+   "age": "28 - 37",
+   "womenInPop": "340 214",
+   "womenInPopTo10000": 34,
+   "menInPop": "361 414",
+   "menInPopTo10000": 36,
+   "allPeopleinPop": "701 628",
+   "allPeopleTo10000": 70
+ },
+ {
+   "age": "38 - 47",
+   "womenInPop": "321 510",
+   "womenInPopTo10000": 32,
+   "menInPop": "337 137",
+   "menInPopTo10000": 34,
+   "allPeopleinPop": "658 647",
+   "allPeopleTo10000": 66
+ },
+ {
+   "age": "48 - 57",
+   "womenInPop": "368 147",
+   "womenInPopTo10000": 37,
+   "menInPop": "370 245",
+   "menInPopTo10000": 37,
+   "allPeopleinPop": "738 392",
+   "allPeopleTo10000": 74
+ },
+ {
+   "age": "58 - 67",
+   "womenInPop": "378 113",
+   "womenInPopTo10000": 38,
+   "menInPop": "360 238",
+   "menInPopTo10000": 36,
+   "allPeopleinPop": "738 351",
+   "allPeopleTo10000": 74
+ },
+ {
+   "age": "68 <",
+   "womenInPop": "534 479",
+   "womenInPopTo10000": 53,
+   "menInPop": "393 108",
+   "menInPopTo10000": 39,
+   "allPeopleinPop": "927 587",
+   "allPeopleTo10000": 93
+ },
+ {
+   "age": "Count",
+   "womenInPop": "2 267 547",
+   "womenInPopTo10000": 227,
+   "menInPop": "2 163 845",
+   "menInPopTo10000": 216,
+   "allPeopleinPop": "4 431 392",
+   "allPeopleTo10000": 443
+ }
+]

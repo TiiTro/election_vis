@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compitable" content="ie-edge">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Space+Mono:400,700" rel="stylesheet">
+		<title>Kunnallisvaalit 2017 visualisointi</title>
+	</head>
+
+	<body class="background">
+			<div class="container">
+					<div class="row">
+						<div class="col-sm">
+								<h1 class="main-header">Kuntavaalit 2017</h1>
+								<div class="text-container">
+									<p class="bodytext">Seuraavat graafit tutkivat, miten kuntavaaleissa 2017 valitut kunnallispoliitikot suhteutuvat väestöön iän ja sukupuolen perusteella.</p>
+									<p clas="bodytext">Väestön tiedot perustuvat Tilastokeskuksen vuoden 2016 väestötietoihin. Tilasot perustuvat tietoihin 31.12., joka on lähempänä vaaliajankohtaa kuin vastaavat tiedot vuodelta 2017.</p>
+								</div>
+							</div>
+						</div>
+							<!--Graphics-section -->
+						<div class="row">
+							<div class="col">
+								<h2>Kuntavaaleissa valittujen suhteellinen jakautuminen iän perusteella</h2>
+								<div class="ukkeli-container">
+									<div class="ukkeli-info"></div>
+									<img class="ukkeli valittu-18-27" src="svg/ukko2.svg" alt="valitut 18-27">
+									<img class="ukkeli valittu-28-37" src="svg/ukko2.svg" alt="valitut 28-37">
+									<img class="ukkeli valittu-38-47" src="svg/ukko2.svg" alt="valitut 38-47">
+									<img class="ukkeli valittu-48-57" src="svg/ukko2.svg" alt="valitut 48-57">
+									<img class="ukkeli valittu-58-67" src="svg/ukko2.svg" alt="valitut 58-67">
+									<img class="ukkeli valittu-68" src="svg/ukko2.svg" alt="valitut 68-">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="ukkeli-container">
+									<div class="ukkeli-info"></div>
+									<img class="ukkeli vaesto-18-27" src="svg/ukko2.svg" alt="ukkeli">
+									<img class="ukkeli vaesto-28-37" src="svg/ukko2.svg" alt="ukkeli">
+									<img class="ukkeli vaesto-38-47" src="svg/ukko2.svg" alt="ukkeli">
+									<img class="ukkeli vaesto-48-57" src="svg/ukko2.svg" alt="ukkeli">
+									<img class="ukkeli vaesto-58-67" src="svg/ukko2.svg" alt="ukkeli">
+									<img class="ukkeli vaesto-68" src="svg/ukko2.svg" alt="ukkeli">
+							</div>
+						</div>
+						<!--Graphics-section -->
+						<div class="row">
+							<div class="col-sm-4" style="background-color: beige;">
+									<div class="test-2">
+										<canvas id="genderElectedChart" width="50" height="100"></canvas>
+									</div>
+							</div>
+							<div class="col-sm-4" style="background-color: beige;">naiset</div>
+							<div class="col-sm-4" style="background-color: beige;">miehet</div>
+						</div>
+				</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<script src="/app.js"></script>
+	<script src="node_modules/Chart.js"></script>
+</html>

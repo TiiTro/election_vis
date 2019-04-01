@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+}
+
+.container{
+	margin: 5vw;
+	padding: 2.5rem;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px rgba(0,0,0,.3);
+}
+
+.ukkeli-container {
+	display: flex;
+	height: 200px;
+	padding: 3rem;
+	margin-bottom: 2rem;
+}
+
+.ukkeli-info {
+	flex-direction: column;
+	width: 15%;
+	background-color: green;
+}
+.ukkeli {
+	align-self: baseline;
+}
+.valittu-18-27 {
+	height: 19px;
+}
+.valittu-28-37 {
+	height: 65px;
+}
+.valittu-38-47 {
+	height: 101px;
+}
+.valittu-48-57 {
+	height: 112px;
+}
+.valittu-58-67 {
+	height: 107px;
+}
+.valittu-68 {
+	height: 39px;
+}
+
+.text-container {
+	margin-bottom: 4rem;
+	padding-right: 8rem;
+	padding-left: 8rem;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #DAFDF1;
+}
+
+.main-header {
+	font-family: 'Space Mono', monospace;
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.bodytext {
+	padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .main-header {
+		font-size: 4rem;
+		text-align: left;
+		padding-right: 4rem;
+		padding-left: 4rem;
+	}
+	
+	.text-container {
+		margin-bottom: 4rem;
+		padding-right: 4rem;
+		padding-left: 4rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  .main-header {
+    font-size: 3rem;
+	}
+	.text-container {
+		margin-bottom: 3rem;
+		padding-right: 3rem;
+		padding-left: 3rem;
+	}
+}
