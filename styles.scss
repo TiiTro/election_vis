@@ -1,0 +1,237 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+}
+
+$color1: rgba(24,82, 226, 1); //#1852E2
+$color2: rgba(165, 70, 87, 1); //#A54657
+$color3: rgba(94, 243, 140, 1); //#5EF38C
+$color4: rgba(147,147,147, 1); //#939393
+$color5: rgba(228, 87, 46, 1); // #E4572E
+$color6: rgba(34, 29, 35, 1); //#221D23
+
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #DAFDF1;
+}
+
+.container{
+	margin: 5vw;
+	padding: 2.5rem;
+}
+
+.main-header {
+	font-family: 'Space Mono', monospace;
+	font-size: 5rem;
+	font-weight: 700;
+	padding-right: 12rem;
+	padding-left: 12rem;
+	line-height: 7.5rem;
+}
+
+.bodytext {
+	padding-bottom: 1.5rem;
+}
+
+.text-container {
+	margin-bottom: 4rem;
+	padding-right: 12rem;
+	padding-left: 12rem;
+}
+
+.ages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px rgba(0,0,0,.3);
+	margin: 1rem 12rem 4rem 12rem;
+	padding: 1rem 2rem 1rem 2rem;
+
+	p {
+		font-size: 1.5rem;
+	}
+
+	span {
+		margin-right: .8rem;
+		font-size: 1.5rem;
+	}
+
+	&-18-27 {
+		color: $color1;
+	}
+	&-28-37 {
+		color: $color2;
+	}
+	&-38-47 {
+		color: $color3;
+	}
+	&-48-57 {
+		color: $color4;
+	}
+	&-58-67 {
+		color: $color5;
+	}
+	&-68 {
+		color: $color6;
+	}
+}
+.ukkeli-container {
+	display: flex;
+  flex-direction: column;
+	background-color: white;
+	margin-bottom: 2rem;
+	padding: 3rem;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px rgba(0,0,0,.3);
+
+	.ukkeli-header {
+		font-weight: 400;
+		font-size: 3rem;
+	}
+
+	.ukkelit {
+		height: 112px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+
+		.valittu {
+			align-self: baseline;
+			flex-grow: 1;
+			
+			&-18-27 {
+				height: 19px;
+				fill: $color1;
+			}
+			&-28-37 {
+				height: 65px;
+			}
+			&-38-47 {
+				height: 101px;
+			}
+			&-48-57 {
+				height: 112px;
+			}
+			&-58-67 {
+				height: 107px;
+			}
+			&-68 {
+				height: 39px;
+			}
+		}
+
+		.vaesto {
+			align-self: baseline;
+			
+			&-18-27 {
+				height: 67px;
+			}
+			&-28-37 {
+				height: 70px;
+			}
+			&-38-47 {
+				height: 66px;
+			}
+			&-48-57 {
+				height: 74px;
+			}
+			&-58-67 {
+				height: 74px;
+			}
+			&-68 {
+				height: 93px;
+			}
+		}
+	}
+
+	.ukkeli-info {
+		flex-direction: row;
+	}
+
+	.ukkeli {
+		align-self: baseline;
+		flex-grow: 1;
+	}
+}
+
+
+
+
+
+////// MEDIA QUERIES //////////
+
+@media screen and (max-width: 1200px) {
+	.ages {
+		margin: 1rem 15px 4rem 15px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+  .main-header {
+		font-size: 4rem;
+		text-align: left;
+		line-height: 6rem;
+	}
+	
+  .text-container, 
+  .main-header, 
+	.ukkeli-container,
+	.ages {
+		margin-bottom: 4rem;
+		padding-right: 4rem;
+		padding-left: 4rem;
+	}
+
+	.ukkeli-info {
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  .main-header {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+		margin-left: 0;
+		padding-left: 3rem;
+		line-height: 4rem;
+	}
+	.text-container {
+		margin-bottom: 4rem;
+		padding-right: 3rem;
+		padding-left: 3rem;
+	}
+
+	.ages {
+		padding: 1rem 2rem 1rem 2rem;
+		flex-direction: column;
+	}
+
+	.ukkeli-container {
+		margin-bottom: 2rem;
+		padding: 3rem 3rem 1rem 3rem;
+		border-radius: 5px;
+		box-shadow: 2px 5px 5px rgba(0,0,0,.3);
+
+		.ukkeli-header {
+			font-size: 2.5rem;
+			font-weight: bold;
+		}
+
+		.ukkelit {
+			margin-top: 2rem;
+			margin-bottom: 3rem;
+		}
+	}
+
+
+}

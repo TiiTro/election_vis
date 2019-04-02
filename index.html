@@ -4,8 +4,9 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compitable" content="ie-edge">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="styles.css">
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Space+Mono:400,700" rel="stylesheet">
 		<title>Kunnallisvaalit 2017 visualisointi</title>
 	</head>
@@ -14,53 +15,59 @@
 			<div class="container">
 					<div class="row">
 						<div class="col-sm">
-								<h1 class="main-header">Kuntavaalit 2017</h1>
+								<h1 class="main-header">Nuoret ja iäkkäät ovat aliedustettuja valtuustoissa</h1>
 								<div class="text-container">
-									<p class="bodytext">Seuraavat graafit tutkivat, miten kuntavaaleissa 2017 valitut kunnallispoliitikot suhteutuvat väestöön iän ja sukupuolen perusteella.</p>
-									<p clas="bodytext">Väestön tiedot perustuvat Tilastokeskuksen vuoden 2016 väestötietoihin. Tilasot perustuvat tietoihin 31.12., joka on lähempänä vaaliajankohtaa kuin vastaavat tiedot vuodelta 2017.</p>
-								</div>
-							</div>
-						</div>
-							<!--Graphics-section -->
-						<div class="row">
-							<div class="col">
-								<h2>Kuntavaaleissa valittujen suhteellinen jakautuminen iän perusteella</h2>
-								<div class="ukkeli-container">
-									<div class="ukkeli-info"></div>
-									<img class="ukkeli valittu-18-27" src="svg/ukko2.svg" alt="valitut 18-27">
-									<img class="ukkeli valittu-28-37" src="svg/ukko2.svg" alt="valitut 28-37">
-									<img class="ukkeli valittu-38-47" src="svg/ukko2.svg" alt="valitut 38-47">
-									<img class="ukkeli valittu-48-57" src="svg/ukko2.svg" alt="valitut 48-57">
-									<img class="ukkeli valittu-58-67" src="svg/ukko2.svg" alt="valitut 58-67">
-									<img class="ukkeli valittu-68" src="svg/ukko2.svg" alt="valitut 68-">
+									<p class="bodytext">Visualisoinnit havainnollistavat, miten Kuntavaaleissa 2017 läpimenneiden ehdokkaiden määrät eri ikäluokissa suhteutuvat saman ikäluokan osuuteen koko väestöstä.</p>
+									<p clas="bodytext">Väestötietoina on käytetty Tilastokeskuksen vuoden 2016 väestötietoja äänestysikäisistä. Vuosi 2016 valikoitui vertailuaineistoksi, sillä tilastoinnin ajankohta 31.12. on lähempänä vaalien ajankohtaa kuin vastaavat tiedot vuodelta 2017.</p>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col">
-								<div class="ukkeli-container">
-									<div class="ukkeli-info"></div>
-									<img class="ukkeli vaesto-18-27" src="svg/ukko2.svg" alt="ukkeli">
-									<img class="ukkeli vaesto-28-37" src="svg/ukko2.svg" alt="ukkeli">
-									<img class="ukkeli vaesto-38-47" src="svg/ukko2.svg" alt="ukkeli">
-									<img class="ukkeli vaesto-48-57" src="svg/ukko2.svg" alt="ukkeli">
-									<img class="ukkeli vaesto-58-67" src="svg/ukko2.svg" alt="ukkeli">
-									<img class="ukkeli vaesto-68" src="svg/ukko2.svg" alt="ukkeli">
-							</div>
+								<div class="col-md ages">
+									<p>Ikäryhmät:</p>
+									<p><span class="ages-18-27">&block;</span>18–27</p>
+									<p><span class="ages-28-37">&block;</span>28–37</p>
+									<p><span class="ages-38-47">&block;</span>38–47</p>
+									<p><span class="ages-48-57">&block;</span>48–57</p>
+									<p><span class="ages-58-67">&block;</span>58–67</p>
+									<p><span class="ages--68">&block;</span>68–</p>
+								</div>
 						</div>
-						<!--Graphics-section -->
 						<div class="row">
-							<div class="col-sm-4" style="background-color: beige;">
-									<div class="test-2">
-										<canvas id="genderElectedChart" width="50" height="100"></canvas>
+							<div class="col-md-6">
+								<div class="ukkeli-container">
+									<h2 class="ukkeli-header">Ikäryhmien edustajat valtuustoissa</h2>
+									<div class="ukkelit">
+										<img class="ukkeli valittu-18-27 " src="svg/ukko1.svg" alt="valitut 18-27">
+										<img class="ukkeli valittu-28-37" src="svg/ukko2.svg" alt="valitut 28-37">
+										<img class="ukkeli valittu-38-47" src="svg/ukko3.svg" alt="valitut 38-47">
+										<img class="ukkeli valittu-48-57" src="svg/ukko4.svg" alt="valitut 48-57">
+										<img class="ukkeli valittu-58-67" src="svg/ukko5.svg" alt="valitut 58-67">
+										<img class="ukkeli valittu-68" src="svg/ukko6.svg" alt="valitut 68-">
 									</div>
+									<div>
+											<div class="ukkeli-info">
+												<p>Tältä näyttää valittujen kunnanvaltuutettujen määrä eri ikäryhmissä suhteutettuna väestön ikäryhmien kokoon.</p>
+											</div>
+										</div>
+								</div>
 							</div>
-							<div class="col-sm-4" style="background-color: beige;">naiset</div>
-							<div class="col-sm-4" style="background-color: beige;">miehet</div>
+							<div class="col-md-6">
+									<div class="ukkeli-container">
+										<h2 class="ukkeli-header">Ikäryhmien edustajat väestössä</h2>
+										<div class="ukkelit">
+											<img class="ukkeli vaesto-18-27" src="svg/ukko1.svg" alt="ukkeli">
+											<img class="ukkeli vaesto-28-37" src="svg/ukko2.svg" alt="ukkeli">
+											<img class="ukkeli vaesto-38-47" src="svg/ukko3.svg" alt="ukkeli">
+											<img class="ukkeli vaesto-48-57" src="svg/ukko4.svg" alt="ukkeli">
+											<img class="ukkeli vaesto-58-67" src="svg/ukko5.svg" alt="ukkeli">
+											<img class="ukkeli vaesto-68" src="svg/ukko6.svg" alt="ukkeli">
+										</div>
+										<div class="ukkeli-info">
+											<p>Jos jokaisen ikäryhmän 10 000 edustajaa kohti valittaisiin yksi valtuutettu, edustajien suhde ikäryhmittäin näyttäisi tältä.</p>
+										</div>
+									</div>
+								</div>
 						</div>
-				</div>
 	</body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
-	<script src="/app.js"></script>
-	<script src="node_modules/Chart.js"></script>
 </html>
