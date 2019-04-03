@@ -10,7 +10,7 @@ Run
 npm run compile:sass
 ```
 
-Run from terminal
+Run from a new terminal
 
 ```bash
 php -S localhost:3300
